@@ -1,0 +1,27 @@
+{
+  "name": "h5-kit",
+  "version": "0.1.0",
+  "description": "h5-kit 是一款node工具库，封装了一些h5的常用方法",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ounibin/h5-kit.git"
+  },
+  "author": "wangkj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ounibin/h5-kit/issues"
+  },
+  "homepage": "https://github.com/ounibin/h5-kit#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.14.3",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
