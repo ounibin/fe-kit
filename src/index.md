@@ -7,7 +7,7 @@ hero:
   text: '简单、高效的 js 库'
   tagline: 使用前端开发变得更简单、更高效
   image:
-    src: /logo.png
+    src: /assets/logo.png
   actions:
     # - theme: brand
     #   text: 指南
