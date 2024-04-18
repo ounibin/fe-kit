@@ -1,2 +1,6 @@
-dist
 node_modules
+dist
+docs
+
+src/.vitepress/dist
+src/.vitepress/cache
