@@ -43,7 +43,7 @@ export default defineConfig({
     sidebar: getSideBar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ounibin' }
+      { icon: 'github', link: 'https://github.com/ounibin/h5-kit' }
     ],
     search: {
       provider: 'local'
