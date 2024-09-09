@@ -1,2 +1,3 @@
-export * as urlKit from './urlKit/index'
-export * as numberKit from './numberKit/index'
+export * from './url'
+export * from './device'
+export * from './number'

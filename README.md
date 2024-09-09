@@ -1,9 +1,9 @@
 ## 介绍
-h5-kit 是一款node工具库，封装了一些h5的常用方法
+js-kit 是一款js工具库，封装了一些js开发过程中的常用方法
 
 ## 安装
 ```
-npm install h5-kit
+npm install js-kit
 ```
 
 

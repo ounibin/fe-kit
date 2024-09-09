@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: 'h5-kit'
+  name: 'js-kit'
   text: '简单、高效的 js 库'
   tagline: 使用前端开发变得更简单、更高效
   image:
-    src: /assets/logo.png
+    src: /assets/imgs/logo.png
   actions:
     # - theme: brand
     #   text: 指南
