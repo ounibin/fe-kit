@@ -1,26 +1,26 @@
 {
-  "name": "js-kit",
-  "version": "0.1.0",
-  "description": "js-kit 是一款js工具库，封装了一些js开发过程中的常用方法",
+  "name": "gangu",
+  "version": ".2.0",
+  "description": "gangu 是一款js工具库，封装了一些js开发过程中的常用方法",
   "main": "dist/index.mjs",
   "type": "module",
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c",
     "test": "vitest",
-    "docs:dev": "vitepress dev doc",
-    "docs:build": "vitepress build doc"
+    "dev:docs": "vitepress dev doc",
+    "build:docs": "vitepress build doc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ounibin/js-kit.git"
+    "url": "git+https://github.com/ounibin/gangu.git"
   },
   "author": "wangkj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ounibin/js-kit/issues"
+    "url": "https://github.com/ounibin/gangu/issues"
   },
-  "homepage": "https://github.com/ounibin/js-kit#readme",
+  "homepage": "https://github.com/ounibin/gangu#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-typescript": "^11.1.6",

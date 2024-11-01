@@ -1,9 +1,9 @@
 ## 介绍
-js-kit 是一款js工具库，封装了一些js开发过程中的常用方法
+gangu 是一款js工具库，封装了一些js开发过程中的常用方法
 
 ## 安装
 ```
-npm install js-kit
+npm install gangu
 ```
 
 
