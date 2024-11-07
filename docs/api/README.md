@@ -1,6 +1,6 @@
----
-permalink: /
----
+**gangu v0.1.1** • [**Docs**](globals.md)
+
+***
 
 # 介绍
 gangu 是一款 js 工具库，封装了一些 js 开发过程中的常用方法。
@@ -22,7 +22,6 @@ yarn add gangu
 ```
 
 :::
-
 
 # 示例
 ```js

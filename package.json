@@ -11,7 +11,8 @@
     "publish": "pnpm build && npm publish",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "docs": "typedoc && vitepress dev"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "@types/node": "^20.12.7",
     "rollup": "^4.14.3",
     "tslib": "^2.6.2",
+    "typedoc": "^0.26.11",
+    "typedoc-plugin-markdown": "^4.2.10",
     "typescript": "^5.4.5",
     "vitepress": "^1.1.0",
     "vitest": "^1.5.0"
