@@ -8,6 +8,7 @@
     "dev": "rollup -cw",
     "build": "rollup -c",
     "test": "vitest",
+    "publish": "pnpm build && npm publish",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
