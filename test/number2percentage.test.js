@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { number2percentage } from './index'
+import { number2percentage } from '../src/number2percentage'
 
 test('number2percentage', () => {
   expect(number2percentage(0.99, 0)).toBe('99%')

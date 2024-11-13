@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

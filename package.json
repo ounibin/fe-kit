@@ -9,10 +9,9 @@
     "build": "rollup -c",
     "test": "vitest",
     "publish": "pnpm build && npm publish",
-    "docs:dev": "vitepress dev",
+    "docs:dev": "typedoc --watch && vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "docs": "typedoc && vitepress dev"
+    "docs:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^20.12.7",
+    "@types/node": "^18.17.1",
     "rollup": "^4.14.3",
     "tslib": "^2.6.2",
     "typedoc": "^0.26.11",
