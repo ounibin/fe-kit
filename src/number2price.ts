@@ -1,6 +1,6 @@
-export function number2price(num: number, decimal = 2):string {
+export function number2price(num: number, decimal = 2): string {
   return num.toLocaleString(undefined, {
-    style: 'decimal',
+    style: "decimal",
     useGrouping: true,
     minimumFractionDigits: decimal,
     maximumFractionDigits: decimal,
