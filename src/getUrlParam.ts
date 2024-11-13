@@ -14,10 +14,10 @@
 export function getUrlParam(url: string, name: string): string {
   try {
     // 查找查询字符串的起始位置
-    const queryStart = url.indexOf("?")
+    const queryStart = url.indexOf('?')
     if (queryStart === -1) {
       // 如果URL中没有查询字符串部分，直接返回空字符串
-      return ""
+      return ''
     }
 
     // 获取查询字符串部分
@@ -27,13 +27,13 @@ export function getUrlParam(url: string, name: string): string {
     const searchParams = new URLSearchParams(searchStr)
 
     // 获取指定名称的查询参数值，如果不存在，则返回空字符串
-    const res = searchParams.get(name) || ""
+    const res = searchParams.get(name) || ''
 
     // 返回查询参数值
     return res
   } catch (error) {
     // 记录解析URL时的错误
-    console.error("Error parsing URL:", error)
-    return ""
+    console.error('Error parsing URL:', error)
+    return ''
   }
 }
