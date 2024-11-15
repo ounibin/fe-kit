@@ -1,7 +1,7 @@
 /**
  * 截取字符串，使其不超过指定的字数限制，并在超出时添加省略号。
  * @param str 要截取的字符串
- * @param wordLimit 字数限制
+ * @param wordLimit 返回的字符长度限制， ... 算一个字符
  * @returns 截取后的字符串
  */
 export function cutString(

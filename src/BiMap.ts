@@ -1,3 +1,7 @@
+/**
+ * BiMap 类用于实现双向映射，即可以通过键找到值，也可以通过值找到键。
+ * 它维护两个内部 Map 对象，一个用于正向映射（键到值），另一个用于反向映射（值到键）。
+ */
 export class BiMap {
   public forwardObj: Map<string, unknown>
   private reverseObj: Map<unknown, string>
