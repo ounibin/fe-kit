@@ -1,11 +1,6 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "paths": {
-      "undici-types": [
-        "./node_modules/undici/types"
-      ]
-    }
+    "module": "esnext"
   },
   "exclude": [
     "node_modules"
