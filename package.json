@@ -8,8 +8,8 @@
     "dev": "rollup -cw",
     "build": "rollup -c",
     "test": "vitest",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:dev": "typedoc && vitepress dev",
+    "docs:build": "typedoc && vitepress build",
     "docs:preview": "vitepress preview",
     "deploy": "npm login && pnpm install && pnpm build && pnpm docs:build && npm publish"
   },
