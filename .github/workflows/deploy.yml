@@ -17,14 +17,21 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18 # 根据项目需求修改 Node.js 版本
+          cache: 'pnpm'    # 启用 pnpm 缓存
+
+      # 安装 pnpm
+      - name: Install pnpm
+        run: |
+          npm install -g pnpm
+          pnpm config set store-dir ~/.pnpm-store
 
       # 安装依赖
       - name: Install dependencies
-        run: npm install # 或 npm install / yarn install
+        run: pnpm install # 或 npm install / yarn install
 
       # 构建静态文件
       - name: Build the site
-        run: npm run docs:build # 或 npm run build / yarn build
+        run: pnpm run docs:build # 或 npm run build / yarn build
 
       # 部署到 gh-pages 分支
       - name: Deploy to GitHub Pages
