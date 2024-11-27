@@ -6,7 +6,7 @@ export class BiMap {
   public forwardObj: Map<string, unknown>
   private reverseObj: Map<unknown, string>
 
-  constructor(obj: object) {
+  constructor(obj: Record<string, any>) {
     this.forwardObj = new Map()
     this.reverseObj = new Map()
     for (const key in obj) {

@@ -11,7 +11,7 @@
 export function launchMiniProgram(params: {
   appId: string
   path: string
-  query: object
+  query: Record<string, any>
 }): void {
   try {
     const { appId, path, query } = params
