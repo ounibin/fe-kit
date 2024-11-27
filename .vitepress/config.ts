@@ -32,6 +32,7 @@ export default defineConfig({
   srcDir: './docs',
   title: "gangu",
   description: "gangu",
+  base: '/gangu',
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
