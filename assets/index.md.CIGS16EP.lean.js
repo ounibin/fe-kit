@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as i,a4 as t}from"./chunks/framework.DF40YQsC.js";const b=JSON.parse('{"title":"介绍","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),e={name:"index.md"},n=t("",6),l=[n];function p(h,d,r,o,k,c){return i(),s("div",null,l)}const u=a(e,[["render",p]]);export{b as __pageData,u as default};
