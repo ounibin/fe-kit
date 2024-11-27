@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as t,a4 as e}from"./chunks/framework.BIBj-nLj.js";const k=JSON.parse('{"title":"介绍","description":"","frontmatter":{},"headers":[],"relativePath":"api/README.md","filePath":"api/README.md"}'),n={name:"api/README.md"},i=e("",19),p=[i];function l(o,h,r,c,d,u){return t(),a("div",null,p)}const b=s(n,[["render",l]]);export{k as __pageData,b as default};
