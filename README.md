@@ -37,4 +37,4 @@ vitest 会执行所有 test.js 结尾的文件
 
 # 发布
 包：https://www.npmjs.com/package/gangu  
-文档：（建设中）  
+文档：https://ounibin.github.io/gangu/
